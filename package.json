@@ -1,0 +1,25 @@
+{
+  "name": "Circ-TailwindCSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enrico-secco/Circ-TailwindCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enrico-secco/Circ-TailwindCSS/issues"
+  },
+  "homepage": "https://github.com/enrico-secco/Circ-TailwindCSS#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.14"
+  }
+}

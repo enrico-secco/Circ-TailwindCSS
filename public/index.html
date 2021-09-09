@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Circ</title>
+  </head>
+
+  <body>
+    
+    <nav role="navigation" class="flex justify-between items-center h-16 
+                           bg-gradient-to-r from-purple-700 to bg-purple-600 text-white relative">
+      <a href="index.html" class="pl-6 font-bold">CIRC</a>
+      <div class="px-4 cursor-pointer md:hidden" id="bars">
+        <svg x
+          mlns="http://www.w3.org/2000/svg" 
+          class="h-6 w-6" fill="none" 
+          viewBox="0 0 24 24" 
+          stroke="currentColor">
+          <path 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            stroke-width="2" 
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </div>
+      <div class="hidden md:block" id="menu">
+        <a href="index.html" class="p-4">Home</a>
+        <a href="about.html" class="p-4">About</a>
+        <a href="contact.html" class="p-4">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <div class="bg-no-repeat h-screen bg-center bg-cover flex justify-center items-center" 
+         style="background-image: url('./images/img.jpg');">
+         
+      <div class="text-center font-bold">
+        <h1 class="lg:text-8xl sm:text-6xl text-4xl mb-10 text-purple-600 hover:text-white duration-500">
+          Choose your colors
+        </h1>
+        <a href="#" class="text-white text-xl flex justify-center items-center transform hover:scale-110 duration-500">
+          Explore
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            class="h-6 w-6 ml-2 mt-2" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor">
+            <path 
+              stroke-linecap="round" 
+              stroke-linejoin="round" 
+              stroke-width="2" 
+              d="M17 8l4 4m0 0l-4 4m4-4H3" 
+            />
+          </svg>
+        </a>
+      </div>
+        
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
